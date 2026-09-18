@@ -1,6 +1,9 @@
 {
   "dependencies": {
-    "fastify": "^5.12.5"
+    "better-sqlite3": "^13.0.3",
+    "fastify": "^5.12.5",
+    "knex": "^3.3.0",
+    "zod": "^4.6.5"
   },
   "name": "daily-diet-api",
   "version": "1.0.0",
@@ -29,5 +32,8 @@
   "bugs": {
     "url": "https://github.com/abraaosantosdeveloper/daily-diet-api/issues"
   },
-  "homepage": "https://github.com/abraaosantosdeveloper/daily-diet-api#readme"
+  "homepage": "https://github.com/abraaosantosdeveloper/daily-diet-api#readme",
+  "allowScripts": {
+    "better-sqlite3@13.0.3": true
+  }
 }
