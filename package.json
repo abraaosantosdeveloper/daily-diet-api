@@ -4,17 +4,30 @@
   },
   "name": "daily-diet-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "- Estudante: **Abraão Filipi dos Santos**\r - IES: **Cesar School**\r - Plano de Estudos: **Grow Up - Porto Digital**\r - Curso: **Análise e Desenvolvimento de Sistemas**",
   "main": "index.js",
-  "devDependencies": {
-    "typescript": "^7.0.2",
-    "typescript-eslint": "^8.70.0"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "lint": "eslint ."
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^26.6.1",
+    "eslint": "^9.20.0",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.70.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abraaosantosdeveloper/daily-diet-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/abraaosantosdeveloper/daily-diet-api/issues"
+  },
+  "homepage": "https://github.com/abraaosantosdeveloper/daily-diet-api#readme"
 }
